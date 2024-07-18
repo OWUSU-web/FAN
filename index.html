@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fan using HTML, CSS, JS | Coding sky | Javascript project</title>
+    <style>
+        /* Additional CSS for positioning and styling */
+        footer {
+            position: absolute;
+            bottom: 20px; /* Adjust this value as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center; /* Aligning text to the center */
+            width: 100%; /* Making the footer full width */
+        }
+
+        footer strong {
+            font-weight: bold; /* Making the text bold */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./images/cover.png" alt="" class="cover">
+        <img src="./images/blades.png" alt="" class="blades">
+    </div>
+
+    <div class="controls">
+        <!-- Start Button -->
+        <button class="btn btn-4" data-nav="4">Start</button>
+        <button class="btn btn-1" data-nav="1">1</button>
+        <button class="btn btn-2" data-nav="2">2</button>
+        <button class="btn btn-3" data-nav="3">3</button>
+        <!-- OFF Button -->
+        <button class="btn btn-0 active" data-nav="0">OFF</button>
+    </div>
+
+    <!-- Developed by Charles Owusu Asare -->
+    <footer>Developed by <strong>CHARLES OWUSU ASARE</strong></footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
